@@ -1,0 +1,62 @@
+/* gruvbox dark */
+
+@define-color bg            #282828;
+@define-color gray          #928374;
+@define-color red-d         #cc241d;
+@define-color red-l         #fb4934;
+@define-color green-d       #98971a;
+@define-color green-l       #b8bb26;
+@define-color yellow-d      #d79921;
+@define-color yellow-l      #fabd2f;
+@define-color blue-d        #458588;
+@define-color blue-l        #83a598;
+@define-color purple-d      #b16286;
+@define-color purple-l      #d3869b;
+@define-color aqua-d        #689d6a;
+@define-color aqua-l        #8ec07c;
+@define-color orange-d      #d65d0e;
+@define-color orange-l      #fe8019;
+
+@define-color bg1           #3c3836;
+@define-color bg2           #504945;
+@define-color bg3           #665c54;
+@define-color bg4           #7c6f64;
+
+@define-color fg0           #fbf1c7;
+
+/*
+	br - border
+	bg - background
+	fg - foreground
+*/
+
+/* main colors */
+
+@define-color accent        @yellow-d;
+@define-color main-br       @aqua-d;
+@define-color main-bg       @bg;
+@define-color main-fg       @fg0;
+@define-color hover-bg      @blue-d;
+@define-color hover-fg      alpha(@yellow-l, 0.75);
+@define-color outline       shade(@yellow-d, 0.5);
+
+/* module colors */
+
+@define-color workspaces    @bg1;
+@define-color temperature   @bg1;
+@define-color memory        @bg2;
+@define-color cpu           @bg3;
+@define-color time          @bg3;
+@define-color date          @bg3;
+@define-color tray          @bg2;
+@define-color volume        @bg1;
+@define-color backlight     @bg1;
+@define-color battery       @bg1;
+
+/* state colors */
+
+@define-color warning       @yellow-d;
+@define-color critical      @red-d;
+@define-color charging      @green-d;
+
+
