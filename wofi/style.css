@@ -25,15 +25,15 @@
 @define-color fg0           #fbf1c7;
 
 window {
-    background-color: @bg;
-    border-radius: 12px;
-    border: 2px solid @aqua-d;
+    background-color: rgba(40, 40, 40, 0.5);
+    border-radius: 0px;
+    border: 2px solid @blue-d;
 }
 
 #input {
-    background-color: @bg1;
-    color: @bg2;
-    border: none;
+    background-color: rgba(60, 56, 54, 0.5);
+    color: @fg0; /*bg2*/
+    border: 2px solid @blue-d;
     border-radius: 8px;
     padding: 8px;
     margin: 8px;
@@ -44,7 +44,7 @@ window {
 }
 
 #entry:selected {
-    background-color: @aqua-d;
+    background-color: @blue-d;
     border-radius: 8px;
 }
 

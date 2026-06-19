@@ -32,13 +32,13 @@
 
 /* main colors */
 
-@define-color accent        @yellow-d;
+@define-color accent        @blue-l;
 @define-color main-br       @aqua-d;
 @define-color main-bg       @bg;
 @define-color main-fg       @fg0;
 @define-color hover-bg      @blue-d;
-@define-color hover-fg      alpha(@yellow-l, 0.75);
-@define-color outline       shade(@yellow-d, 0.5);
+@define-color hover-fg      alpha(@blue-l, 0.75);
+@define-color outline       shade(@blue-d, 0.5);
 
 /* module colors */
 
